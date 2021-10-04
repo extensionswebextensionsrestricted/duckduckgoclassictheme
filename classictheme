@@ -1,0 +1,59 @@
+@-moz-document url-prefix("https://duckduckgo.com/") {
+.dark-bg .logo_homepage     /* Logo for home page */
+    {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https://i.postimg.cc/02zYHCqK/Unbenannt-2.png");
+        width: 414px;
+        height: 500px;
+        margin-left: -50px;
+        margin-bottom: -89px;
+        margin-top: -229px;
+    }
+    
+    .dark-header .header__logo, .header__praise, .header__avatar    /* Logo for search page */
+    {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https://i.postimg.cc/02zYHCqK/Unbenannt-2.png");
+        background-size: 80px 20px;
+        margin-top: 1px;
+        width: 80px;
+        height: 100px;
+    }
+    
+    .search, .search--adv   /* Rounded corners on search bar */
+    {
+        border-radius: 23px;
+        height: 2.8em; 
+    }
+    
+    .search__button, .search__button--hero  /* Rounded corners on search button */
+    {
+        border-radius: 0 23px 23px 0;
+    }
+    
+    .search__autocomplete   /* Rounded bottom corners for the autocomplete-suggestions */
+    {
+        border-radius: 0 0 23px 23px;
+    }
+    
+    .search.has-suggestions, .search--adv.has-suggestions   /* Rounded top corners for the search bar when autocomplete-suggestions pops up */
+    {
+        border-radius: 23px 23px 0 0;
+    }
+    
+    .has-suggestions .search__button, .has-suggestions .search__button--hero    /* Rounded corners on the right side for the search button when autocomplete-suggestions pops up */
+    {
+        border-radius: 0 23px 4px 0;
+    }
+    
+    .tag-home   /* Hide default privacy text */
+    {
+        visibility: hidden;
+    }
+    .logo_homepage__tt /* Hide default "duck it" message NOT WORKING*/
+    {
+        visibility: hidden;
+    }
+
+.header__clickable {
+    visibility: hidden;
+}
+}
